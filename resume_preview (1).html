@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sani Kumar - Software Developer Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', serif;
+            line-height: 1.4;
+            color: #000;
+            background: white;
+            font-size: 11pt;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 16pt;
+            border-bottom: 2pt solid #000080;
+            padding-bottom: 8pt;
+        }
+
+        .name {
+            font-size: 18pt;
+            font-weight: bold;
+            color: #000080;
+            margin-bottom: 4pt;
+        }
+
+        .title {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 6pt;
+        }
+
+        .contact {
+            font-size: 10pt;
+            color: #333;
+            line-height: 1.2;
+        }
+
+        .section {
+            margin-bottom: 12pt;
+        }
+
+        .section-title {
+            font-size: 11pt;
+            font-weight: bold;
+            color: #000080;
+            border-bottom: 1pt solid #ccc;
+            padding-bottom: 2pt;
+            margin-bottom: 6pt;
+            text-transform: uppercase;
+        }
+
+        .summary {
+            font-size: 10pt;
+            text-align: justify;
+            line-height: 1.3;
+            margin-bottom: 12pt;
+        }
+
+        .main-content {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .left-column {
+            display: table-cell;
+            width: 65%;
+            vertical-align: top;
+            padding-right: 20pt;
+        }
+
+        .right-column {
+            display: table-cell;
+            width: 35%;
+            vertical-align: top;
+        }
+
+        .experience-item, .project-item {
+            margin-bottom: 8pt;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #000;
+            font-size: 11pt;
+        }
+
+        .company {
+            font-style: italic;
+            color: #333;
+            font-size: 10pt;
+        }
+
+        .date {
+            float: right;
+            color: #666;
+            font-size: 9pt;
+            font-style: italic;
+        }
+
+        .project-title {
+            font-weight: bold;
+            color: #000;
+            font-size: 10pt;
+        }
+
+        .tech-stack {
+            color: #008000;
+            font-size: 9pt;
+            font-style: italic;
+            margin-bottom: 2pt;
+        }
+
+        .bullet-list {
+            margin-left: 12pt;
+            margin-top: 3pt;
+            list-style-type: disc;
+        }
+
+        .bullet-list li {
+            margin-bottom: 2pt;
+            font-size: 9pt;
+            line-height: 1.3;
+        }
+
+        .skills-section {
+            font-size: 9pt;
+        }
+
+        .skill-category {
+            margin-bottom: 4pt;
+            line-height: 1.2;
+        }
+
+        .skill-label {
+            font-weight: bold;
+            color: #000;
+            display: inline;
+        }
+
+        .skill-value {
+            display: inline;
+            color: #333;
+        }
+
+        .education-item {
+            margin-bottom: 6pt;
+        }
+
+        .degree {
+            font-weight: bold;
+            color: #000;
+            font-size: 10pt;
+        }
+
+        .university {
+            color: #333;
+            font-size: 9pt;
+            font-style: italic;
+        }
+
+        .achievements {
+            font-size: 9pt;
+        }
+
+        .achievement-item {
+            margin-bottom: 3pt;
+            line-height: 1.2;
+        }
+
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="name">SANI KUMAR</div>
+        <div class="title">Software Developer</div>
+        <div class="contact">
+            📧 sanikum040@gmail.com | 📱 +91 9525462150<br>
+            🔗 LinkedIn | 💻 GitHub | 🏆 LeetCode | 📊 CodeForces
+        </div>
+    </div>
+
+    <!-- Summary -->
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <div class="summary">
+            Results-driven Software Developer with 6+ months of hands-on experience in full-stack development, specializing in React.js, Python, and API integration. Proven track record in building scalable e-commerce platforms and ML models. Strong problem-solving skills with 500+ coding challenges solved and multiple competitive programming achievements.
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="left-column">
+            <!-- Experience -->
+            <div class="section">
+                <div class="section-title">Professional Experience</div>
+                <div class="experience-item">
+                    <div class="clearfix">
+                        <div class="job-title">Software Developer Intern</div>
+                        <div class="date">Jan 2025 - July 2025</div>
+                    </div>
+                    <div class="company">Deevia Software India Private Limited - Bengaluru</div>
+                    <ul class="bullet-list">
+                        <li>Developed responsive web interfaces with customized content management systems using scalable architecture</li>
+                        <li>Built high-performance REST APIs using FastAPI and PostgreSQL with Socket.IO for real-time features</li>
+                        <li>Optimized JavaScript code achieving 25% performance improvement through debugging and tuning</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Projects -->
+            <div class="section">
+                <div class="section-title">Key Projects</div>
+                
+                <div class="project-item">
+                    <div class="project-title">Ecom-Shopy | E-commerce Platform</div>
+                    <div class="tech-stack">React.js, Tailwind CSS, Redux, Firebase, Razorpay</div>
+                    <ul class="bullet-list">
+                        <li>Built comprehensive e-commerce platform with user authentication and admin dashboard</li>
+                        <li>Integrated Razorpay payment gateway and implemented advanced search/filter features</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-title">CarIQ | ML Price Prediction</div>
+                    <div class="tech-stack">Python, Linear Regression, Web Framework</div>
+                    <ul class="bullet-list">
+                        <li>Developed ML model for used car price prediction with 85% accuracy</li>
+                        <li>Performed data preprocessing and built web interface for real-time predictions</li>
+                    </ul>
+                </div>
+
+                <div class="project-item">
+                    <div class="project-title">Fit-With-Fitness | Fitness Application</div>
+                    <div class="tech-stack">React.js, Material UI, Rapid API</div>
+                    <ul class="bullet-list">
+                        <li>Created fitness app with 1000+ exercises, video demonstrations, and API integration</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="section">
+                <div class="section-title">Education</div>
+                <div class="education-item">
+                    <div class="clearfix">
+                        <div class="degree">B.Tech in Electronics and Communication Engineering</div>
+                        <div class="date">2020 - 2024</div>
+                    </div>
+                    <div class="university">Indian Institute of Information Technology <span style="font-weight: bold; color: #000080;">(IIIT)</span>, Bhagalpur</div>
+                    <div style="font-size: 9pt; color: #666; margin-top: 2pt;">CGPA: 7.67 | Relevant Coursework: DSA, OOPs, OS, DBMS, System Design</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <!-- Technical Skills -->
+            <div class="section">
+                <div class="section-title">Technical Skills</div>
+                <div class="skills-section">
+                    <div class="skill-category">
+                        <span class="skill-label">Languages:</span>
+                        <span class="skill-value"> Python, C/C++, JavaScript</span>
+                    </div>
+                    <div class="skill-category">
+                        <span class="skill-label">Frontend:</span>
+                        <span class="skill-value"> React.js, Angular, HTML5, CSS3, Tailwind CSS</span>
+                    </div>
+                    <div class="skill-category">
+                        <span class="skill-label">Backend:</span>
+                        <span class="skill-value"> FastAPI, REST APIs, Socket.IO</span>
+                    </div>
+                    <div class="skill-category">
+                        <span class="skill-label">Database:</span>
+                        <span class="skill-value"> PostgreSQL, SQL, Firebase</span>
+                    </div>
+                    <div class="skill-category">
+                        <span class="skill-label">Tools:</span>
+                        <span class="skill-value"> Git/GitHub, VS Code, Figma</span>
+                    </div>
+                    <div class="skill-category">
+                        <span class="skill-label">Core Subjects:</span>
+                        <span class="skill-value"> DSA, OOPs, OS, DBMS, System Design</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievements -->
+            <div class="section">
+                <div class="section-title">Achievements</div>
+                <div class="achievements">
+                    <div class="achievement-item">🏆 2nd Place - AntiCode Competition (IIIT Bhagalpur)</div>
+                    <div class="achievement-item">🏆 15th Place - CodeRush Challenge (AlgoUniversity)</div>
+                    <div class="achievement-item">🏆 1065th Rank - CodeCrush (Top 7% among 15K participants)</div>
+                    <div class="achievement-item">💻 500+ Problems Solved (LeetCode, GFG, CodeChef)</div>
+                    <div class="achievement-item">🎓 GRIP Program Graduate - The Sparks Foundation</div>
+                    <div class="achievement-item">👥 Core Member - Programming Club (PYC), IIIT Bhagalpur</div>
+                    <div class="achievement-item">📱 Social Media Manager - Annual Fest 'Enyugma'</div>
+                    <div class="achievement-item">🏏 Cricket Team Member - Annual Sports Fest 'Utavva'</div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="section">
+                <div class="section-title">Certifications</div>
+                <div class="achievements">
+                    <div class="achievement-item">Web Development - The Sparks Foundation</div>
+                    <div class="achievement-item">Full-Stack Development - Self-paced</div>
+                    <div class="achievement-item">Competitive Programming - Multiple Platforms</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
